@@ -54,7 +54,6 @@ Show
 BaseType "Uncut "
 SetTextColor 20 240 240
 SetBorderColor 20 240 240
-PlayAlertSound 2 300
 PlayEffect Cyan
 MinimapIcon 1 Cyan Triangle
 
@@ -297,7 +296,19 @@ Show
 Class "Wands"
 BaseType "Siphoning Wand"
 SetFontSize 40
+Rarity Magic
 PlayAlertSound 5 10
+
+Show
+Class "Flask"
+BaseType "Mana Flask"
+Rarity Magic
+SetFontSize 40
+SetTextColor 100 149 237 255   # Cornflower Blue color
+SetBorderColor 0 0 255 255     # Bright Blue border
+PlayAlertSound 2 100
+PlayEffect Blue
+MinimapIcon 2 Blue Circle
 
 Show
 BaseType == "Expert Laced Boots"
