@@ -275,36 +275,8 @@ SetFontSize 35
 # SetBackgroundColor 0 0 0 125
 
 #--------------------------
-# Meta/Specific filters (Add specific filters under)
+# Meta/Specific filters (Add specific filters under the line
 
 # If this thing crashes, time to update your filter!
 # This is here to prevent people to use this filter for AGES. Expert items will get removed eventually
 #--------------------------
-
-Show
-Class "Wands"
-BaseType "Attuned Wand"
-Rarity Magic
-SetFontSize 40
-PlayAlertSound 5 10
-
-Show
-Class "Wands"
-BaseType "Siphoning Wand"
-SetFontSize 40
-Rarity Magic
-PlayAlertSound 5 10
-
-Show
-Class "Flask"
-BaseType "Mana Flask"
-Rarity Magic
-SetFontSize 40
-SetTextColor 100 149 237 255
-SetBorderColor 0 0 255 255
-PlayAlertSound 2 100
-PlayEffect Blue
-MinimapIcon 2 Blue Circle
-
-Show
-BaseType == "Expert Laced Boots"

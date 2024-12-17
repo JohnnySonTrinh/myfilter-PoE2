@@ -305,6 +305,3 @@ SetBorderColor 0 0 255 255
 PlayAlertSound 2 100
 PlayEffect Blue
 MinimapIcon 2 Blue Circle
-
-Show
-BaseType == "Expert Laced Boots"

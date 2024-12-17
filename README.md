@@ -1,7 +1,9 @@
-# Domestico's Ultimate PoE2 Loot Filter 🎮
+# 🎮 Domestico's Ultimate PoE2 Loot Filter 🎮
 
 Welcome to **Domestico's Ultimate Loot Filter** for **Path of Exile 2**!  
 This filter is crafted to enhance your gameplay by highlighting **valuable loot** while keeping the clutter to a minimum.
+
+![Image](https://imgur.com/w42bgeF.png)
 
 ## 🔥 Features
 
@@ -13,8 +15,6 @@ This filter is crafted to enhance your gameplay by highlighting **valuable loot*
   - **High-Value Currency**
   - **Socketables and Jewels**
   - **Salvageable Items**
-
----
 
 ## 📜 Loot Filter Highlights
 
@@ -52,23 +52,21 @@ This filter is crafted to enhance your gameplay by highlighting **valuable loot*
   - Tier B: Chaos Orb, Exalted Orb, etc.
   - Tier C: Shards and crafting items
 
-## 🚀 How to Use the Filter
+## 🚀 How to Use
 
-1. **Download the Filter File**:
+1. Download the **ZIP file** containing:
 
-   - Copy the full code provided [here](#).
-   - Save the file as `Filter.filter`.
+   - `Main Filter.filter` _(ready-to-use version)_
+   - `Stormweaver Filter.filter` _(My version)_
 
-2. **Install the Filter**:
+2. Extract the ZIP file and move the `.filter` file to your **Path of Exile directory**:
 
-   - Place the file into your **Path of Exile 2 filters folder**:
-     - On Windows: `Documents/My Games/Path of Exile/`
-     - On macOS: `~/Library/Application Support/Path of Exile/`
-   - Alternatively, upload the code directly in the **in-game UI settings** under _Loot Filters_.
+   - **Windows**: `Documents/My Games/Path of Exile/`
+   - **macOS**: `~/Library/Application Support/Path of Exile/`
 
-3. **Activate the Filter**:
-   - Go to **Options > UI > Loot Filter** in the game.
-   - Select `Filter.filter` from the dropdown.
+3. Launch **Path of Exile 2** and enable the filter:
+   - Go to **Options > UI > Loot Filter**.
+   - Select **Domestico_Ultimate.filter** from the dropdown list.
 
 ## 🎨 Preview
 
@@ -80,7 +78,7 @@ This filter is crafted to enhance your gameplay by highlighting **valuable loot*
 
 ## 🔧 Customization
 
-Feel free to tweak the filter to suit your needs!  
+Feel free to tweak the filter to suit your needs!
 You can modify:
 
 - `SetTextColor` for different colors
@@ -102,7 +100,6 @@ Download the latest version from my GitHub Repository (Coming Soon).
 
 Got suggestions or feedback? Let me know!
 
-- Discord: [Domestico](#)
+- Discord: Domestico
 
-Happy looting! 🚀  
-**Ultimate Filter** ✨
+**Happy looting!** 💰
