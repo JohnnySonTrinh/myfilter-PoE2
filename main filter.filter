@@ -212,11 +212,11 @@ MinimapIcon 1 Yellow Diamond
 
 Show
 Rarity Normal
-Class "Rings" "Amulets" "Belts"
+Class "Rings" "Amulets"
 SetFontSize 40
 
 Show
-Class "Rings" "Amulets" "Belts"
+Class "Rings" "Amulets"
 Rarity Magic
 SetFontSize 40
 
