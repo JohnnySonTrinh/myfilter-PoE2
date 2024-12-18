@@ -283,14 +283,12 @@ SetFontSize 35
 
 Show
 Class "Wands"
-BaseType "Attuned Wand"
 Rarity Magic
 SetFontSize 40
 PlayAlertSound 5 10
 
 Show
 Class "Wands"
-BaseType "Siphoning Wand"
 SetFontSize 40
 Rarity Magic
 PlayAlertSound 5 10
