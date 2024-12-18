@@ -288,12 +288,6 @@ SetFontSize 40
 PlayAlertSound 5 10
 
 Show
-Class "Wands"
-SetFontSize 40
-Rarity Magic
-PlayAlertSound 5 10
-
-Show
 Class "Flask"
 BaseType "Mana Flask"
 Rarity Magic
