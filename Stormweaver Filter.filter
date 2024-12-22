@@ -286,14 +286,42 @@ Class "Wands"
 Rarity Magic
 SetFontSize 40
 PlayAlertSound 5 10
+PlayEffect Purple
+MinimapIcon 2 Purple Circle
 
 Show
 Class "Flask"
-BaseType "Mana Flask"
 Rarity Magic
 SetFontSize 40
 SetTextColor 100 149 237 255
 SetBorderColor 0 0 255 255
-PlayAlertSound 2 100
-PlayEffect Blue
-MinimapIcon 2 Blue Circle
+PlayEffect Purple
+MinimapIcon 2 Purple Circle
+
+Show
+BaseType "Feathered Robe" "Hexer's Robe" "Bone Raiment" "Silk Robe" "Keth Raiment" "Votive Raiment" "Altar Robe" "Elementalist Robe" "Mystic Raiment" "Imperial Robe" "Plated Raiment" "Havoc Raiment" "Enlightened Robe" "Arcane Robe"
+SetFontSize 40
+SetTextColor 0 128 255 255  # Light blue
+SetBorderColor 0 128 255 255
+SetBackgroundColor 20 20 40 200
+PlayAlertSound 1 300
+MinimapIcon 2 Blue Star
+
+Show
+BaseType "Havoc Raiment" "Enlightened Robe" "Arcane Robe"
+ItemLevel >= 65
+SetFontSize 45
+SetTextColor 255 100 100 255  # Red
+SetBorderColor 255 100 100 255
+SetBackgroundColor 50 10 10 200
+PlayAlertSound 5 300
+MinimapIcon 2 Red Star
+
+Show
+BaseType "Enlightened Robe" "Arcane Robe"
+SetFontSize 45
+SetTextColor 0 255 128 255  # Green
+SetBorderColor 0 255 128 255
+SetBackgroundColor 10 40 10 200
+PlayAlertSound 6 300
+MinimapIcon 2 Green Diamond
