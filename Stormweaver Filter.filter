@@ -290,7 +290,8 @@ PlayEffect Purple
 MinimapIcon 2 Blue Star
 
 Show
-BaseType "Hexer's Robe" "Altar Robe"
+BaseType "Hexer's Robe" "Altar Robe" "Feathered Tiara" "Chain Tiara" "Plumed Focus" "Crystal Focus" "Voodoo Focus" " Antler Focus" "Prismatic Ring" "Feathered Sandals" "Wrapped Sandals" "Silk Slippers"
+
 SetFontSize 40
 SetTextColor 0 128 255 255
 SetBorderColor 0 128 255 255
@@ -298,7 +299,7 @@ SetBackgroundColor 20 20 40 200
 MinimapIcon 2 Blue Star
 
 Show
-BaseType "Hexer's Robe" "Altar Robe"
+BaseType "Hexer's Robe" "Altar Robe" "Feathered Tiara" "Chain Tiara" "Plumed Focus" "Crystal Focus" "Voodoo Focus" " Antler Focus" "Prismatic Ring" "Feathered Sandals" "Wrapped Sandals" "Silk Slippers"
 ItemLevel >= 65
 SetFontSize 45
 SetTextColor 255 100 100 255
