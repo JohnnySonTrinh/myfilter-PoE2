@@ -54,8 +54,8 @@ Show
 BaseType "Uncut"
 SetTextColor 20 240 240
 SetBorderColor 20 240 240
-PlayEffect Cyan
-MinimapIcon 1 Cyan Triangle
+# PlayEffect Cyan
+# MinimapIcon 1 Cyan Triangle
 
 #--------------------------
 # Socketables and Special Character Equipment
@@ -149,14 +149,14 @@ Class "Currency"
 BaseType "Arcanist's Etcher" "Armourer's Scrap" "Blacksmith's Whetstone" "Orb of Augmentation" "Orb of Transmutation" "Regal Shard" "Chance Shard"
 SetTextColor 255 207 132
 SetBorderColor 255 207 132
-MinimapIcon 2 Grey Circle
+# MinimapIcon 2 Grey Circle
 
 Show
 Class "Currency"
-BaseType "Simulacrum Splinter" "Breach Splinter" " Artifact" 
+BaseType "Simulacrum Splinter" " Artifact" 
 SetTextColor 255 207 132
 SetBorderColor 255 207 132
-MinimapIcon 2 Grey Circle
+MinimapIcon 1 White Circle
 
 Show
 Class "Currency"
@@ -283,27 +283,37 @@ SetFontSize 35
 
 Show
 Class "Wands"
-Rarity <= Magic
+Rarity Rare
 SetFontSize 40
+SetTextColor 0 128 255 255
+SetBorderColor 0 128 255 255
+SetBackgroundColor 20 20 40 200
 PlayAlertSound 5 10
 PlayEffect Purple
 MinimapIcon 2 Blue Star
 
-# Show
-# BaseType "Hexer's Robe" "Altar Robe" "Feathered Tiara" "Chain Tiara" "Plumed Focus" "Crystal Focus" "Voodoo Focus" " Antler Focus" "Prismatic Ring" "Feathered Sandals" "Wrapped Sandals" "Silk Slippers"
-# SetFontSize 40
-# SetTextColor 0 128 255 255
-# SetBorderColor 0 128 255 255
-# SetBackgroundColor 20 20 40 200
-# MinimapIcon 2 Blue Star
+Show
+BaseType "Hexer's Robe" "Altar Robe" "Feathered Tiara" "Chain Tiara" "Plumed Focus" "Crystal Focus" "Voodoo Focus" " Antler Focus" "Prismatic Ring" "Feathered Sandals" "Wrapped Sandals" "Silk Slippers"
+ItemLevel >= 65
+Rarity Normal
+SetTextColor 0 128 255 255
+SetBorderColor 0 128 255 255
+SetBackgroundColor 20 20 40 200
 
 Show
 BaseType "Hexer's Robe" "Altar Robe" "Feathered Tiara" "Chain Tiara" "Plumed Focus" "Crystal Focus" "Voodoo Focus" " Antler Focus" "Prismatic Ring" "Feathered Sandals" "Wrapped Sandals" "Silk Slippers"
 ItemLevel >= 65
-Rarity <= Rare
-SetFontSize 45
+Rarity Rare
 SetTextColor 255 100 100 255
 SetBorderColor 255 100 100 255
 SetBackgroundColor 50 10 10 200
-PlayAlertSound 5 300
-MinimapIcon 2 Red Star
+
+Class "Currency"
+BaseType "Breach Splinter"
+SetFontSize 40
+SetTextColor 255 207 132
+SetBorderColor 255 207 132
+SetBackgroundColor 76 51 12
+PlayAlertSound 2 300
+PlayEffect Pink
+MinimapIcon 1 White Circle
