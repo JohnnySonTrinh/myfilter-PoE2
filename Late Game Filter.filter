@@ -1,16 +1,11 @@
-#===============================================================================================================
-# NeverSink's Indepth Loot Filter - for Path of Exile
-#===============================================================================================================
-# VERSION:  0.1.1
-# AUTHOR:   NeverSink
-#
-# This is a mini-filter designed for early PoE2 EA gameplay. I will eventually replace it with a full-fledged filter
-# With FilterBlade.xyz support. This filter focuses more on highlighting loot, rather than hiding
-#
-# TWITTER: @NeverSinkDev
-# DISCORD: https://discord.gg/mye6xhF
-# TWITCH:  https://www.twitch.tv/neversink
-# PATREON: https://www.patreon.com/Neversink
+#===============================================================================================
+# Domestico's Ultimate PoE2 Loot Filter
+# Version: 1.0
+# Created by: JohnnySonTrinh
+# 
+# Highlights all the treasures you'll ever need in PoE2 with carefully curated rules for visuals,
+# sounds, and effects to enhance your gameplay. Optimize your loot, ignore the junk, and enjoy!
+#===============================================================================================
 
 Show
 BaseType "Iron Rune"
