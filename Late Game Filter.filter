@@ -171,10 +171,13 @@ Hide
 Show
   Class == "Wands"
   Rarity == Rare
-  SetFontSize 25
+  SetFontSize 40
   SetTextColor 255 255 0
   SetBorderColor 0 0 0 0
   SetBackgroundColor 34 147 58 67
+  PlayAlertSound 13 300
+  PlayEffect Blue
+  MinimapIcon 2 Blue Star
 
 Hide
   Class == "Body Armour"
