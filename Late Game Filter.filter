@@ -571,7 +571,7 @@ Show # Red Maps High
 Hide # Yellow Maps
 	Class == "Waystones"
 	WaystoneTier >= 6
-	WaystoneTier <= 12
+	WaystoneTier <= 13
 	SetFontSize 35
   SetTextColor 255 165 0
   SetBackgroundColor 20 20 0 255
