@@ -1,6 +1,6 @@
 #===============================================================================================
 # Domestico's Ultimate PoE2 Loot Filter
-# Version: 1.0
+# Version: 1.1
 # Created by: JohnnySonTrinh
 # 
 # Highlights all the treasures you'll ever need in PoE2 with carefully curated rules for visuals,
@@ -560,7 +560,7 @@ SetFontSize 40
 
 Show # Red Maps High
 	Class == "Waystones"
-	WaystoneTier >= 13
+	WaystoneTier >= 14
 	SetFontSize 45
 	SetTextColor 255 0 0 255
 	SetBackgroundColor 235 235 235 255
