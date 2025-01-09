@@ -182,11 +182,10 @@ Rarity == Rare
 Show
 BaseType "Hexer's Robe" "Feathered Tiara" "Silk Slippers" "Intricate Gloves" "Prismatic Ring" "Plumed Focus"
 Rarity Rare
-SetFontSize 40
+SetFontSize 45
 SetTextColor 255 255 0
 SetBorderColor 0 0 0 0
 SetBackgroundColor 34 147 58 67
-PlayAlertSound 13 300
 PlayEffect Blue
 MinimapIcon 2 Blue Star
 
@@ -369,7 +368,6 @@ SetBorderColor 20 240 240
 SetTextColor 0 240 190
 SetFontSize 30
 SetBackgroundColor 0 0 0 255
-PlayAlertSound 2 300
 PlayEffect Cyan
 
 Show
@@ -379,7 +377,7 @@ SetBorderColor 20 240 240
 SetTextColor 0 240 190
 SetFontSize 30
 SetBackgroundColor 0 0 0 255
-PlayAlertSound 2 300
+PlayAlertSound 14 200
 PlayEffect Cyan
 
 Hide
