@@ -1,6 +1,6 @@
 #===============================================================================================
 # Domestico's Ultimate PoE2 Loot Filter
-# Version: 1.1
+# Version: 1.3
 # Created by: JohnnySonTrinh
 # 
 # Highlights all the treasures you'll ever need in PoE2 with carefully curated rules for visuals,
@@ -89,188 +89,188 @@ SetFontSize 30
 Rarity Normal
 
 Show
-  Class == "Bows"
-  BaseType "Expert"
-  Rarity == Rare
-  SetFontSize 25
-  SetTextColor 255 255 0
-  SetBorderColor 0 0 0 0
-  SetBackgroundColor 34 147 58 67
+Class == "Bows"
+BaseType "Expert"
+Rarity == Rare
+SetFontSize 25
+SetTextColor 255 255 0
+SetBorderColor 0 0 0 0
+SetBackgroundColor 34 147 58 67
 
 Show
-  Class == "Crossbows"
-  BaseType "Expert"
-  Rarity == Rare
-  SetFontSize 25
-  SetTextColor 255 255 0
-  SetBorderColor 0 0 0 0
-  SetBackgroundColor 34 147 58 67
+Class == "Crossbows"
+BaseType "Expert"
+Rarity == Rare
+SetFontSize 25
+SetTextColor 255 255 0
+SetBorderColor 0 0 0 0
+SetBackgroundColor 34 147 58 67
 
 Show
-  Class == "Foci"
-  BaseType "Expert"
-  Rarity == Rare
-  SetFontSize 25
-  SetTextColor 255 255 0
-  SetBorderColor 0 0 0 0
-  SetBackgroundColor 34 147 58 67
+Class == "Foci"
+BaseType "Expert"
+Rarity == Rare
+SetFontSize 25
+SetTextColor 255 255 0
+SetBorderColor 0 0 0 0
+SetBackgroundColor 34 147 58 67
 
 Hide
-  Class == "One Hand Maces"
-  BaseType "Expert"
-  Rarity == Rare
+Class == "One Hand Maces"
+BaseType "Expert"
+Rarity == Rare
 
 Show
-  Class == "Quarterstaves"
-  BaseType "Expert"
-  Rarity == Rare
-  SetFontSize 25
-  SetTextColor 255 255 0
-  SetBorderColor 0 0 0 0
-  SetBackgroundColor 34 147 58 67
+Class == "Quarterstaves"
+BaseType "Expert"
+Rarity == Rare
+SetFontSize 25
+SetTextColor 255 255 0
+SetBorderColor 0 0 0 0
+SetBackgroundColor 34 147 58 67
 
 Show
-  Class == "Quivers"
-  Rarity == Rare
-  SetFontSize 25
-  SetTextColor 255 255 0
-  SetBorderColor 0 0 0 0
-  SetBackgroundColor 34 147 58 67
+Class == "Quivers"
+Rarity == Rare
+SetFontSize 25
+SetTextColor 255 255 0
+SetBorderColor 0 0 0 0
+SetBackgroundColor 34 147 58 67
 
 Show
-  Class == "Sceptres"
-  Rarity == Rare
-  SetFontSize 25
-  SetTextColor 255 255 0
-  SetBorderColor 0 0 0 0
-  SetBackgroundColor 34 147 58 67
+Class == "Sceptres"
+Rarity == Rare
+SetFontSize 25
+SetTextColor 255 255 0
+SetBorderColor 0 0 0 0
+SetBackgroundColor 34 147 58 67
 
 Show
-  Class == "Shields"
-  BaseType "Expert"
-  Rarity == Rare
-  SetFontSize 25
-  SetTextColor 255 255 0
-  SetBorderColor 0 0 0 0
-  SetBackgroundColor 34 147 58 67
+Class == "Shields"
+BaseType "Expert"
+Rarity == Rare
+SetFontSize 25
+SetTextColor 255 255 0
+SetBorderColor 0 0 0 0
+SetBackgroundColor 34 147 58 67
 
 Hide
-  Class == "Staves"
-  Rarity == Rare
+Class == "Staves"
+Rarity == Rare
 
 Hide
-  Class == "Two Hand Maces"
-  BaseType "Expert"
-  Rarity == Rare
-
-Show
-  Class == "Wands"
-  Rarity == Rare
-  SetFontSize 40
-  SetTextColor 255 255 0
-  SetBorderColor 0 0 0 0
-  SetBackgroundColor 34 147 58 67
-  PlayAlertSound 13 300
-  PlayEffect Blue
-  MinimapIcon 2 Blue Star
-
-Hide
-  Class == "Body Armour"
-  BaseType "Expert"
-  Rarity == Rare
+Class == "Two Hand Maces"
+BaseType "Expert"
+Rarity == Rare
 
 Show
-  BaseType "Hexer's Robe" "Feathered Tiara" "Silk Slippers" "Intricate Gloves" "Prismatic Ring" "Plumed Focus"
-  Rarity Rare
-  SetFontSize 40
-  SetTextColor 255 255 0
-  SetBorderColor 0 0 0 0
-  SetBackgroundColor 34 147 58 67
-  PlayAlertSound 13 300
-  PlayEffect Blue
-  MinimapIcon 2 Blue Star
+Class == "Wands"
+Rarity == Rare
+SetFontSize 40
+SetTextColor 255 255 0
+SetBorderColor 0 0 0 0
+SetBackgroundColor 34 147 58 67
+PlayAlertSound 13 300
+PlayEffect Blue
+MinimapIcon 2 Blue Star
 
 Hide
-  Class == "Helmet"
-  BaseType "Expert"
-  Rarity == Rare
-  SetFontSize 25
-  SetTextColor 255 255 0
-  SetBorderColor 0 0 0 0
-  SetBackgroundColor 34 147 58 67
+Class == "Body Armour"
+BaseType "Expert"
+Rarity == Rare
 
 Show
-  Class == "Gloves"
-  BaseType "Expert"
-  Rarity == Rare
-  SetFontSize 25
-  SetTextColor 255 255 0
-  SetBorderColor 0 0 0 0
-  SetBackgroundColor 34 147 58 67
+BaseType "Hexer's Robe" "Feathered Tiara" "Silk Slippers" "Intricate Gloves" "Prismatic Ring" "Plumed Focus"
+Rarity Rare
+SetFontSize 40
+SetTextColor 255 255 0
+SetBorderColor 0 0 0 0
+SetBackgroundColor 34 147 58 67
+PlayAlertSound 13 300
+PlayEffect Blue
+MinimapIcon 2 Blue Star
+
+Hide
+Class == "Helmet"
+BaseType "Expert"
+Rarity == Rare
+SetFontSize 25
+SetTextColor 255 255 0
+SetBorderColor 0 0 0 0
+SetBackgroundColor 34 147 58 67
 
 Show
-  Class == "Boots"
-  BaseType "Expert"
-  Rarity == Rare
-  SetFontSize 25
-  SetTextColor 255 255 0
-  SetBorderColor 0 0 0 0
-  SetBackgroundColor 34 147 58 67
+Class == "Gloves"
+BaseType "Expert"
+Rarity == Rare
+SetFontSize 25
+SetTextColor 255 255 0
+SetBorderColor 0 0 0 0
+SetBackgroundColor 34 147 58 67
+
+Show
+Class == "Boots"
+BaseType "Expert"
+Rarity == Rare
+SetFontSize 25
+SetTextColor 255 255 0
+SetBorderColor 0 0 0 0
+SetBackgroundColor 34 147 58 67
 
 Hide
-  Class == "Bows"
-  BaseType "Advanced"
-  Rarity == Rare
-  
-Hide
-  Class == "Crossbows"
-  BaseType "Advanced"
-  Rarity == Rare
-  
-Hide
-  Class == "Foci"
-  BaseType "Advanced"
-  Rarity == Rare
+Class == "Bows"
+BaseType "Advanced"
+Rarity == Rare
 
 Hide
-  Class == "One Hand Maces"
-  BaseType "Advanced"
-  Rarity == Rare
+Class == "Crossbows"
+BaseType "Advanced"
+Rarity == Rare
 
 Hide
-  Class == "Quarterstaves"
-  BaseType "Advanced"
-  Rarity == Rare
- 
-Hide
-  Class == "Shields"
-  BaseType "Advanced"
-  Rarity == Rare
-  
-Hide
-  Class == "Two Hand Maces"
-  BaseType "Advanced"
-  Rarity == Rare
-  
-Hide
-  Class == "Body Armour"
-  BaseType "Advanced"
-  Rarity == Rare
-  
-Hide
-  Class == "Helmet"
-  BaseType "Advanced"
-  Rarity == Rare
+Class == "Foci"
+BaseType "Advanced"
+Rarity == Rare
 
 Hide
-  Class == "Gloves"
-  BaseType "Advanced"
-  Rarity == Rare
+Class == "One Hand Maces"
+BaseType "Advanced"
+Rarity == Rare
 
 Hide
-  Class == "Boots"
-  BaseType "Advanced"
-  Rarity == Rare
+Class == "Quarterstaves"
+BaseType "Advanced"
+Rarity == Rare
+
+Hide
+Class == "Shields"
+BaseType "Advanced"
+Rarity == Rare
+
+Hide
+Class == "Two Hand Maces"
+BaseType "Advanced"
+Rarity == Rare
+
+Hide
+Class == "Body Armour"
+BaseType "Advanced"
+Rarity == Rare
+
+Hide
+Class == "Helmet"
+BaseType "Advanced"
+Rarity == Rare
+
+Hide
+Class == "Gloves"
+BaseType "Advanced"
+Rarity == Rare
+
+Hide
+Class == "Boots"
+BaseType "Advanced"
+Rarity == Rare
 
 #--------------------------
 # Overrides - Uniques, Valuables
@@ -333,57 +333,57 @@ SetFontSize 20
 #--------------------------
 
 Show
-    BaseType "Skill Gem" "Spirit Gem"
-    SetTextColor 20 240 240
-    ItemLevel <= 1
-    SetBorderColor 20 240 240
-    SetFontSize 30
-    SetBackgroundColor 0 0 0 255
+BaseType "Skill Gem" "Spirit Gem"
+SetTextColor 20 240 240
+ItemLevel <= 1
+SetBorderColor 20 240 240
+SetFontSize 30
+SetBackgroundColor 0 0 0 255
 
 Show
-  BaseType "Skill Gem"
-  ItemLevel >= 20
-    SetFontSize 45
-    SetTextColor 255 0 0 255
-    SetBorderColor 255 0 0 255
-    SetBackgroundColor 255 255 255 255
-    PlayEffect Red
-    MinimapIcon 0 Red Star
-    PlayAlertSound 6 300
+BaseType "Skill Gem"
+ItemLevel >= 20
+SetFontSize 45
+SetTextColor 255 0 0 255
+SetBorderColor 255 0 0 255
+SetBackgroundColor 255 255 255 255
+PlayEffect Red
+MinimapIcon 0 Red Star
+PlayAlertSound 6 300
 
 Show
-  BaseType "Spirit Gem"
-  ItemLevel >= 20
-    SetFontSize 45
-    SetTextColor 255 0 0 255
-    SetBorderColor 255 0 0 255
-    SetBackgroundColor 255 255 255 255
-    PlayEffect Red
-    MinimapIcon 0 Red Star
-    PlayAlertSound 6 300
-    
-Show
-  BaseType "Skill Gem"
-  ItemLevel >= 19
-    SetBorderColor 20 240 240
-    SetTextColor 0 240 190
-    SetFontSize 30
-    SetBackgroundColor 0 0 0 255
-    PlayAlertSound 2 300
-    PlayEffect Cyan
+BaseType "Spirit Gem"
+ItemLevel >= 20
+SetFontSize 45
+SetTextColor 255 0 0 255
+SetBorderColor 255 0 0 255
+SetBackgroundColor 255 255 255 255
+PlayEffect Red
+MinimapIcon 0 Red Star
+PlayAlertSound 6 300
 
 Show
-  BaseType "Spirit Gem"
-  ItemLevel >= 19
-    SetBorderColor 20 240 240
-    SetTextColor 0 240 190
-    SetFontSize 30
-    SetBackgroundColor 0 0 0 255
-    PlayAlertSound 2 300
-    PlayEffect Cyan
+BaseType "Skill Gem"
+ItemLevel >= 19
+SetBorderColor 20 240 240
+SetTextColor 0 240 190
+SetFontSize 30
+SetBackgroundColor 0 0 0 255
+PlayAlertSound 2 300
+PlayEffect Cyan
+
+Show
+BaseType "Spirit Gem"
+ItemLevel >= 19
+SetBorderColor 20 240 240
+SetTextColor 0 240 190
+SetFontSize 30
+SetBackgroundColor 0 0 0 255
+PlayAlertSound 2 300
+PlayEffect Cyan
 
 Hide
-    BaseType "Uncut Support Gem"
+BaseType "Uncut Support Gem"
 
 #--------------------------
 # Socketables and Special Character Equipment
@@ -488,11 +488,11 @@ MinimapIcon 1 Pink Circle
 SetFontSize 35
 
 Hide
-  Class "Currency"
-  BaseType "Regal Orb" "Lesser Jeweller's Orb"
-  SetTextColor 255 105 180 255
-  SetBorderColor 255 105 180 255
-  SetBackgroundColor 40 0 40 255
+Class "Currency"
+BaseType "Regal Orb" "Lesser Jeweller's Orb"
+SetTextColor 255 105 180 255
+SetBorderColor 255 105 180 255
+SetBackgroundColor 40 0 40 255
 
 Show
 Class "Omen"
@@ -587,41 +587,41 @@ MinimapIcon 1 Yellow Square
 SetFontSize 40
 
 Show # Orange Maps High
-	Class == "Waystones"
-	WaystoneTier == 15
-	SetFontSize 40
-	SetTextColor 255 165 0
-  SetBorderColor 255 165 0
-  SetBackgroundColor 20 20 0 255
-	PlayAlertSound 10 200
-	PlayEffect Orange
-	MinimapIcon 1 Orange Triangle
+Class == "Waystones"
+WaystoneTier == 15
+SetFontSize 40
+SetTextColor 255 165 0
+SetBorderColor 255 165 0
+SetBackgroundColor 20 20 0 255
+PlayAlertSound 10 200
+PlayEffect Orange
+MinimapIcon 1 Orange Triangle
 
 Show # Yellow Maps
-  Class == "Waystones"
-	WaystoneTier == 14
-	SetFontSize 35
-	SetTextColor 255 243 176
-  SetBorderColor 255 243 176
-	SetBackgroundColor 20 20 0 255
-	PlayEffect Yellow
-	
+Class == "Waystones"
+WaystoneTier == 14
+SetFontSize 35
+SetTextColor 255 243 176
+SetBorderColor 255 243 176
+SetBackgroundColor 20 20 0 255
+PlayEffect Yellow
+
 Hide # White Maps
-	Class == "Waystones"
-	WaystoneTier >= 1
-	WaystoneTier <= 13
-	SetFontSize 30
-  SetTextColor 255 255 255 255
-  SetBackgroundColor 20 20 0 255
+Class == "Waystones"
+WaystoneTier >= 1
+WaystoneTier <= 13
+SetFontSize 30
+SetTextColor 255 255 255 255
+SetBackgroundColor 20 20 0 255
 
 Hide # rares
-	Sockets = 0
-	Quality = 0
-	Rarity Rare
-  SetTextColor 0 0 0
-  SetBorderColor 255 223 0
-  SetBackgroundColor 255 204 0
-	SetFontSize 30
+Sockets = 0
+Quality = 0
+Rarity Rare
+SetTextColor 0 0 0
+SetBorderColor 255 223 0
+SetBackgroundColor 255 204 0
+SetFontSize 30
 
 #--------------------------
 # Rings, Amulets, Belts
@@ -684,14 +684,14 @@ SetFontSize 30
 # REMOVE THE BASES YOU --DO-- WANT TO SEE BEFORE SETTING TO HIDE
 
 
- Hide
- Rarity <= Magic
- Class "Flask" "Body" "Helmet" "Boots" "Gloves" "Shields" "Quiver" "Mace" "Staff" "Quarter" "Bow" "Crossbow" "Wand" "Sceptre" "Focus"
- AreaLevel >= 65
+Hide
+Rarity <= Magic
+Class "Flask" "Body" "Helmet" "Boots" "Gloves" "Shields" "Quiver" "Mace" "Staff" "Quarter" "Bow" "Crossbow" "Wand" "Sceptre" "Focus"
+AreaLevel >= 65
 
 ### OPTIONAL RULE: REDUCES BACKGROUND ON LOW LEVEL BASES
 
- Hide
+Hide
 # Rarity <= Magic
 # Class "Flask" "Body" "Helmet" "Boots" "Gloves" "Shields" "Quiver" "Mace" "Staff" "Quarter" "Bow" "Crossbow" "Wand" "Sceptre"
 # AreaLevel >= 65
