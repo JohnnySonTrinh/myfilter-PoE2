@@ -579,28 +579,30 @@ PlayEffect White
 MinimapIcon 1 Yellow Square
 SetFontSize 40
 
-Show # Red Maps High
+Show # Orange Maps High
 	Class == "Waystones"
-	WaystoneTier >= 14
-	SetFontSize 45
-	SetTextColor 255 0 0 255
-	SetBackgroundColor 235 235 235 255
-	PlayAlertSound 5 300
-	PlayEffect Red
-	MinimapIcon 1 Red Triangle
-	
-Hide # Yellow Maps
-	Class == "Waystones"
-	WaystoneTier >= 6
-	WaystoneTier <= 13
-	SetFontSize 35
-  SetTextColor 255 165 0
+	WaystoneTier == 15
+	SetFontSize 40
+	SetTextColor 255 165 0
+  SetBorderColor 255 165 0
   SetBackgroundColor 20 20 0 255
+	PlayAlertSound 10 200
+	PlayEffect Orange
+	MinimapIcon 1 Orange Triangle
+
+Show # Yellow Maps
+  Class == "Waystones"
+	WaystoneTier == 14
+	SetFontSize 35
+	SetTextColor 255 243 176
+  SetBorderColor 255 243 176
+	SetBackgroundColor 20 20 0 255
+	PlayEffect Yellow
 	
 Hide # White Maps
 	Class == "Waystones"
 	WaystoneTier >= 1
-	WaystoneTier <= 5
+	WaystoneTier <= 13
 	SetFontSize 30
   SetTextColor 255 255 255 255
   SetBackgroundColor 20 20 0 255
@@ -609,9 +611,9 @@ Hide # rares
 	Sockets = 0
 	Quality = 0
 	Rarity Rare
-SetTextColor 0 0 0
-SetBorderColor 255 223 0
-SetBackgroundColor 255 204 0
+  SetTextColor 0 0 0
+  SetBorderColor 255 223 0
+  SetBackgroundColor 255 204 0
 	SetFontSize 30
 
 #--------------------------
