@@ -514,7 +514,6 @@ PlayEffect White
 MinimapIcon 1 White Circle
 SetFontSize 35
 
-# Currency Tier C: Vaal, Chaos, Exalt, Exotic
 Show
 Class "Currency"
 BaseType "Armourer's Scrap" "Blacksmith's Whetstone"
