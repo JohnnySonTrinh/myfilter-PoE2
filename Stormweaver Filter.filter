@@ -480,7 +480,7 @@ BaseType "Vaal Orb" "Greater Jeweller's Orb" "Chaos Orb" "Exotic" "Exalted Orb" 
 SetTextColor 255 105 180 255
 SetBorderColor 255 105 180 255
 SetBackgroundColor 40 0 40 255
-PlayAlertSound 2 300
+PlayAlertSound 2 200
 PlayEffect White
 MinimapIcon 1 Pink Circle
 SetFontSize 35
