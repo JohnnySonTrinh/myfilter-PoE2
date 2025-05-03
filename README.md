@@ -5,6 +5,10 @@ This filter is crafted to enhance your gameplay by highlighting **valuable loot*
 
 ![Image](https://imgur.com/w42bgeF.png)
 
+## 🛠️ Updates
+[May 2025]: PoE2 Season 2 Loot Filter is coming soon — get ready for cleaner loot and louder blings! 💥🔊
+Stay tuned for even better filters, including updated currency tiers and new item rules!
+
 ## 🔥 Features
 
 - **Clear Visual Cues**: Highlights key item types with distinct text colors, borders, and background effects.
